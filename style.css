@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family:Arial, sans-serif;
+    line-height: 1.6;
+    background: #f5f5f5;
+}
+
+header {
+    background: black;
+    color: white;
+    padding: 20px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size:14px;
+    
+}
+.features{
+    padding: 40px;
+    background: linear-gradient(to right,blue,green);
+    text-align: center;
+}
+.feature-list{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 30px;
+    flex-direction: row;
+
+}
+
+.feature {
+    background: #e0e0e0;
+    padding: 20px;
+    width: 200px;
+    border-radius: 8px;
+
+}
+.info{
+    padding: 60px;
+    text-align: center;
+
+}
+.info h2{
+    margin-bottom: 20px;
+        
+}
+.info p{
+    max-width: 600px;
+    margin: 0 auto;
+
+}
+.hero{
+    height: 80vh;
+    background: linear-gradient(to right, #000, #333);
+    color: #f5f5f5;
+
+    display: flex;
+    align-items: center;
+
+
+}
+.hero h1{
+    font-size:18px;
+    margin-bottom: 30px;
+
+}
+.hero p{
+    font-size:18px;
+    margin-bottom: 30px;
+    color: #cccccc;
+
+}
+.button{
+    padding: 14px 28px;
+    background:#00c853;
+    border: none;
+    color:white;
+    font-size:16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-bottom:20px;
+
+
+}
+.button:hover{
+    background: #00a855;
+    
+}
+
+.hero-content{
+    padding-left:80px;
+    max-width:600px;
+
+
+}
+footer{
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+
+}
+.testsection{
+    padding:40px;
+    background: #fafafa;
+    text-align:center;
+    box-sizing:20px;
+
+}
+
+/* Calculator / form styles */
+#nameInput{
+    padding: 10px 12px;
+    width: 220px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+
+#batteryInput{
+    padding: 14px 16px;
+    width: 300px;
+    max-width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 18px;
+    margin-right: 12px;
+}
+
+#calculatebtn{
+    padding: 10px 16px;
+    background: #0078d4;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#calculatebtn:hover{
+    background: #005fa3;
+}
+
+/* Styles for the calculation button used in day2.html */
+#calculationBtn{
+    padding: 10px 16px;
+    background: #0078d4;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#calculationBtn:hover{
+    background: #00c853; /* green on hover */
+}
+
+#estimatedRange{
+    margin-top: 12px;
+    font-weight: 600;
+}
+
+#output{
+    color:#666;
+    margin-top:6px;
+}
+
+/* Tidy hero and header spacing */
+.hero-content{
+    padding-left: 60px;
+}
+.hero-content h1{ 
+    font-size: 36px;
+    margin-bottom: 12px;
+}
+
